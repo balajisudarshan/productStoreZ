@@ -1,0 +1,73 @@
+/* Products.css */
+.cardContainer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 90%;
+    height: 300px;
+    
+    border-radius: 10px;
+  }
+  
+  .card h5 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .card h5:nth-child(3) {
+    color: #888;
+  }
+  
+  .card h5:nth-child(4) {
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  /* Add to Cart Button */
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .card a:hover {
+    background-color: #e65a50;
+    transform: translateY(-2px);
+  }
+  
+  .card a:active {
+    background-color: #d94c43;
+    transform: translateY(0);
+  }
+  
+  .card a:focus {
+    outline: 2px solid #ff6f61;
+    outline-offset: 2px;
+  }
+  

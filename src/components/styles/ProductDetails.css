@@ -1,0 +1,62 @@
+/* styles/ProductDetails.css */
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Outfit:wght@100..900&display=swap');
+.productDetails {
+    display: flex; /* Use Flexbox to align image and details */
+    max-width: 800px; /* Limit the width of the product details */
+    margin: 20px auto; /* Center the component with auto margins */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #fff; /* White background */
+  }
+  
+  .productImage {
+    width: 300px; /* Fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Round the corners of the image */
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .productInfo {
+    flex: 1; /* Take up remaining space for product details */
+  }
+  
+  .productDetails h1 {
+    font-size: 2em; /* Larger font size for the title */
+    margin: 10px 0; /* Space above and below */
+    color: #333; /* Dark gray color for better readability */
+  }
+  
+  .productDetails p {
+    font-size: 1em; /* Regular font size for the description */
+    line-height: 1.5; /* Increase line height for better readability */
+    color: #666; /* Light gray for the text */
+  }
+  
+  .productDetails h3 {
+    font-size: 1.2em; /* Slightly larger font for category and price */
+    margin: 5px 0; /* Space above and below */
+    color: #007BFF; /* Bootstrap primary color for emphasis */
+  }
+  
+  .rating {
+    display: flex; /* Use flexbox for the rating */
+    align-items: center; /* Center align items vertically */
+    margin-top: 10px; /* Space above the rating section */
+  }
+  
+  .ratingValue {
+    font-size: 1.5em; /* Larger font size for rating value */
+    color: #FFD700; /* Gold color for the rating */
+    margin-right: 10px; /* Space between value and count */
+  }
+  
+  .ratingCount {
+    font-size: 1em; /* Regular font size for the review count */
+    color: #666; /* Light gray for the text */
+  }
+  .loading{
+    font-family: 'Honk', cursive;
+    font-size: 2.5rem;
+  }

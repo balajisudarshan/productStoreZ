@@ -1,0 +1,35 @@
+/* Styling for the NavBar */
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Outfit:wght@100..900&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-family: 'Honk', cursive;
+    font-size: 2.5rem;
+    color: #ff4081;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    color: #f50057;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-icon {
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cart-icon:hover {
+    color: #ff4081;
+  }
+  
